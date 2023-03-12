@@ -1,0 +1,13 @@
+.header {
+    min-width: 320px;
+    /* min-height: 64px; */
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+/* @media screen and (max-width: 768px) {
+    .header {
+
+    }
+} */

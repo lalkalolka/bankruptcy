@@ -1,0 +1,6 @@
+.profi__reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 17px 0 0;
+}

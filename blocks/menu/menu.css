@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .menu {
+        display: none;
+    }
+}

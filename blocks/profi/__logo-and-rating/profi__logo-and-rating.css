@@ -1,0 +1,5 @@
+.profi__logo-and-rating {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 0 11px;
+}

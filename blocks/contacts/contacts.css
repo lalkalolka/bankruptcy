@@ -1,0 +1,14 @@
+.contacts {
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 769px) {
+    .contacts {
+        display: none;
+    }
+}

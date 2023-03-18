@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 983px) {
     .navigation {
-        padding: 0 10px 0 10px;
+        display: none;
     }
 }
 

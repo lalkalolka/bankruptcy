@@ -4,6 +4,13 @@
     margin-right: 13px;
 }
 
+@media screen and (max-width: 983px) {
+    .contact__img {
+        width: 19.55px;
+        height: 27.82px;
+    }
+}
+
 @media screen and (max-width: 1249px) {
     .contact__img {
         width: 14.92px;

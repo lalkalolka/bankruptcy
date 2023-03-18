@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 983px) {
     .adress {
+        display: none;
         margin-right: 0;
     }
 }

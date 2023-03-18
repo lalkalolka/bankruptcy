@@ -3,3 +3,9 @@
     justify-content: end;
     align-items: center;
 }
+
+@media screen and (max-width: 983px) {
+    .contact__phone-container {
+        justify-content: center;
+    }
+}

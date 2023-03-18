@@ -1,0 +1,30 @@
+.cards__description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    z-index: 2;
+    max-width: 405px;
+    padding-bottom: 20px;
+    height: 90px;
+}
+
+@media screen and (max-width: 769px) {
+    .cards__description {
+        font-size: 14px;
+        line-height: 17px;
+        height: 73px;
+        max-width: 333px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .cards__description {
+        font-size: 11px;
+        line-height: 13px;
+        max-width: 281px;
+        height: 55px;
+        padding-bottom: 10px;
+    }
+}

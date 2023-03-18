@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 983px) {
     .contact__text {
+        display: none;
         font-size: 12px;
         line-height: 12px;
     }

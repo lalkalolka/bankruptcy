@@ -1,0 +1,20 @@
+.contact__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 1249px) {
+    .contact__text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .contact__text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

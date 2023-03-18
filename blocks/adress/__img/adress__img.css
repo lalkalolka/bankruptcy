@@ -1,0 +1,12 @@
+.adress__img {
+    width: 11.94px;
+    height: 19.09px;
+    margin-right: 13px;
+}
+
+@media screen and (max-width: 983px) {
+    .adress__img {
+        margin-right: 8px;
+        padding-top: 2px;
+    }
+}

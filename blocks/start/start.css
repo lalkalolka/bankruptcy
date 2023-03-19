@@ -1,0 +1,11 @@
+.start {
+    margin: 0 auto;
+    max-width: 1210px;
+    padding-top: 120px;
+}
+
+@media screen and (max-width: 1249px) {
+    .start {
+        display: none;
+    }
+}

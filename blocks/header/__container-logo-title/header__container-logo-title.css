@@ -1,0 +1,16 @@
+.header__container-logo-title {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 983px) {
+    .header__container-logo-title {
+        min-width: 295px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .header__container-logo-title {
+        min-width: 0;
+    }
+}

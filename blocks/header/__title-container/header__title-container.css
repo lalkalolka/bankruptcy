@@ -1,9 +1,0 @@
-.header__title-container {
-    margin-top: 6px;
-}
-
-@media screen and (max-width: 983px) {
-    .header__title-container {
-        margin: 0;
-    }
-}

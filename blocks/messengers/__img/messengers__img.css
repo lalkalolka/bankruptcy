@@ -1,9 +1,0 @@
-.messengers__img {
-    width: 25px;
-}
-
-@media screen and (max-width: 983px) {
-    .messengers__img {
-        width: 37px;
-    }
-}

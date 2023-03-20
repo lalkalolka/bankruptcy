@@ -1,0 +1,11 @@
+.adress {
+    display: flex;
+    margin-right: 28px;
+}
+
+@media screen and (max-width: 983px) {
+    .adress {
+        display: none;
+        margin-right: 0;
+    }
+}

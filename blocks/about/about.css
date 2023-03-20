@@ -1,0 +1,10 @@
+.about {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1249px) {
+    .about {
+        display: none;
+    }
+}

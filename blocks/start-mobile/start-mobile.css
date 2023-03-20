@@ -1,9 +1,0 @@
-.start-mobile {
-    
-}
-
-@media screen and (min-width: 426px) {
-    .start-mobile {
-        display: none;
-    }
-}

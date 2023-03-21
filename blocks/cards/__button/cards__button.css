@@ -1,0 +1,34 @@
+.cards__button {
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    background: radial-gradient(50% 50% at 50% 50%, #FFC37E 0%, #E8A961 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 262px;
+    height: 67px;
+    z-index: 2;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 769px) {
+    .cards__button {
+        width: 236px;
+        height: 50px;
+        font-size: 17px;
+        line-height: 21px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .cards__button {
+        width: 236px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+}

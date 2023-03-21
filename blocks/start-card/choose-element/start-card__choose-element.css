@@ -1,0 +1,23 @@
+.start-card__choose-element {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+    max-width: 202px;
+    position: relative;
+}
+
+.start-card__choose-element::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #2F82E4;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: -10px;
+    z-index: 5;
+}
+
+.start-card__choose-element:last-child {
+    margin-bottom: 0;
+}

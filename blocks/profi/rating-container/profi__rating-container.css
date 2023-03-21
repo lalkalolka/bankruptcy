@@ -1,0 +1,4 @@
+.profi__rating-container {
+    display: flex;
+    justify-content: space-between;
+}

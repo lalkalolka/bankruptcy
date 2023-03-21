@@ -1,9 +1,0 @@
-.about__container {
-    display: flex;
-    margin-bottom: 100px;
-    justify-content: space-between;
-}
-
-.about__container:last-of-type {
-    margin-bottom: 0;
-}

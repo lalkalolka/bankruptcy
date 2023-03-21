@@ -1,0 +1,27 @@
+.garanties__heading {
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    background: linear-gradient(177.01deg, #2F2F2F -19.44%, rgba(0, 0, 0, 0) 96.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    max-width: 240px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1249px) {
+    .garanties__heading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .garanties__heading {
+        font-size: 22px;
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,21 @@
+.navigation__element {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1249px) {
+    .navigation__element {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .navigation__element {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

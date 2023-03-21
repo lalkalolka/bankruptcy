@@ -1,0 +1,23 @@
+.first-screen-desktop__title {
+    margin: 0;
+    padding: 50px 0 5px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+@media screen and (max-width: 1249px) {
+    .first-screen-desktop__title {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 35px 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .first-screen-desktop__title {
+        font-size: 22px;
+        line-height: 27px;
+        padding: 25px 0 10px 0;
+    }
+}

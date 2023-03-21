@@ -1,0 +1,19 @@
+.credit__title-container {
+    margin: 0 auto;
+    position: absolute;
+    left: 120px;
+    bottom: 55%;
+    background-color: #2F82E4;
+    border-radius: 40px;
+    width: 128px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+    .credit__title-container {
+        left: 95px;
+    }
+}

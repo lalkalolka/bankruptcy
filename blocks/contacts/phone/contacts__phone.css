@@ -1,0 +1,12 @@
+.contacts__phone {
+    margin: 0 auto;
+    padding-bottom: 3px;
+    max-width: 190px;
+    text-align: center;
+    border-bottom: 1px dashed;
+    border-color: #FFC37E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}

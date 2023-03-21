@@ -1,0 +1,64 @@
+.cards__first-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 591px;
+    height: 429px;
+    border-radius: 40px;
+    background-image: url(../../../images/services-au.jpg);
+    background-size: cover;
+}
+
+.cards__first-card::before {
+    content: "";
+    position: absolute;
+    width: 591px;
+    height: 429px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 1249px) {
+    .cards__first-card {
+        margin-bottom: 30px;
+        width: 716px;
+        height: 411px;
+    }
+
+    .cards__first-card::before {
+        content: "";
+        position: absolute;
+        width: 716px;
+        height: 411px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .cards__first-card {
+        width: 370px;
+        height: 268px;
+    }
+
+    .cards__first-card::before {
+        content: "";
+        position: absolute;
+        width: 370px;
+        height: 268px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .cards__first-card {
+        width: 310px;
+        height: 225px;
+    }
+
+    .cards__first-card::before {
+        content: "";
+        position: absolute;
+        width: 310px;
+        height: 225px;
+    }
+}

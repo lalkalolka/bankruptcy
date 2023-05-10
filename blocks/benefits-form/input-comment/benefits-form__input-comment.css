@@ -1,0 +1,18 @@
+.benefits-form__input-comment {
+    box-sizing: border-box;
+    width: 285px;
+    min-height: 81px;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    resize: none;
+}
+
+@media screen and (max-width: 401px) {
+    .benefits-form__input-comment {
+        width: 235px;
+    }
+}

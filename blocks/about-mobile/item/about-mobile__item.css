@@ -1,0 +1,40 @@
+.about-mobile__item {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.about-mobile__item::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #2F82E4;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: -15px;
+    z-index: 5;
+}
+
+@media screen and (max-width: 425px) {
+    .about-mobile__item {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        position: relative;
+    }
+    
+    .about-mobile__item::before {
+        content: '';
+        width: 5px;
+        height: 5px;
+        background-color: #2F82E4;
+        border-radius: 50%;
+        position: absolute;
+        top: 9px;
+        left: -10px;
+        z-index: 5;
+    }
+}

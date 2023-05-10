@@ -1,0 +1,21 @@
+.benefits-form__button {
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    background-color: rgba(255, 195, 126, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 20px;
+    width: 285px;
+    height: 47px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 401px) {
+    .benefits-form__button {
+        width: 235px;
+    }
+}

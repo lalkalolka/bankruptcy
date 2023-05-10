@@ -1,0 +1,16 @@
+.about-mobile {
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+@media screen and (min-width: 769px) {
+    .about-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-mobile {
+        max-width: 310px;
+    }
+}

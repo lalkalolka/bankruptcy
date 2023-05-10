@@ -1,0 +1,9 @@
+.about-mobile__heading {
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}

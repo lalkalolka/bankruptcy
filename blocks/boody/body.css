@@ -1,0 +1,19 @@
+.body{
+    font-family: 'Montserrat';
+}
+
+.profi__link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-mobile__input-comment {
+    box-sizing: border-box;
+    width: 310px;
+    height: 100px;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 5px 0 5px;
+    resize: none;
+}

@@ -1,0 +1,9 @@
+.footer-desktop {
+    margin: 120px 0 30px 0;
+}
+
+@media screen and (max-width: 1249px) {
+    .footer-desktop {
+        display: none;
+    }
+}

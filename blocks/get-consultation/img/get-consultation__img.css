@@ -1,0 +1,15 @@
+.get-consultation__img {
+
+}
+
+@media screen and (max-width: 1249px) {
+    .get-consultation__img {
+        width: 22.63px;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .get-consultation__img {
+        width: 18.38px;
+    }
+}

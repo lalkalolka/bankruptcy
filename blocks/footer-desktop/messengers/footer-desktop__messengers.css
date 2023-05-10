@@ -1,0 +1,7 @@
+.footer-desktop__messengers {
+    max-width: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+}

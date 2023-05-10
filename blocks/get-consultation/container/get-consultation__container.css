@@ -1,0 +1,5 @@
+.get-consultation__container {
+    display: flex;
+    max-width: 330px;
+    margin: 0 auto;
+}

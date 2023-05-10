@@ -1,0 +1,15 @@
+.credit__container {
+    margin: 0 auto;
+    max-width: 370px;
+    min-height: 157px;
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 401px) {
+    .credit__container {
+        max-width: 320px;
+    }
+}

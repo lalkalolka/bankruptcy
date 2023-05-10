@@ -1,0 +1,10 @@
+.footer-desktop__write {
+    margin: 0;
+    margin-bottom: 8px;
+    max-width: 64px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    border-bottom: 1px dashed;
+    border-color: #FFC37E;
+}

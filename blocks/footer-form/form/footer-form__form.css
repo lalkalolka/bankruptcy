@@ -1,0 +1,11 @@
+.footer-form__form {
+    max-width: 340px;
+    min-height: 449px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 40px;
+    position: absolute;
+    right: 125px;
+    top: -200px;
+}

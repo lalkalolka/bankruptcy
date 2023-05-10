@@ -1,0 +1,12 @@
+.footer-desktop__call {
+    margin: 0;
+    margin-bottom: 8px;
+    width: 68px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    border-bottom: 1px dashed;
+    border-color: #FFC37E;
+    text-decoration: none;
+    color: black;
+}

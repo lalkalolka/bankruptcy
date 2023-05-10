@@ -1,0 +1,18 @@
+.header__right-side {
+    max-width: 625px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 983px) {
+    .header__right-side {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header__right-side {
+        display: none;
+    }
+}

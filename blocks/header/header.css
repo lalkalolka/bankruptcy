@@ -1,0 +1,22 @@
+.header {
+    max-width: 1210px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    z-index: 11;
+}
+
+/* @media screen and (max-width: 769px) {
+    .header {
+        border-bottom: 1px solid;
+        border-color: rgba(0, 0, 0, 0.3);
+    }
+} */
+
+@media screen and (max-width: 983px) {
+    .header {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        padding: 15px 10px 10px 10px;
+    }
+}

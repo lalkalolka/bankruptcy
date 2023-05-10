@@ -1,0 +1,9 @@
+.footer-desktop__contacts {
+    width: 438px;
+    height: 237px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    position: absolute;
+    top: 76px;
+    left: 124px
+}

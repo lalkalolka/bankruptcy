@@ -1,0 +1,10 @@
+.footer-mobile__input-phone {
+    box-sizing: border-box;
+    width: 310px;
+    height: 50px;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}

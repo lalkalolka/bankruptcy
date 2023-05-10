@@ -1,0 +1,34 @@
+.preloader__subtitle-2 {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    animation-name: subtitle-2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+@media screen and (max-width: 768px) {
+    .preloader__subtitle-2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@keyframes subtitle-2 {
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

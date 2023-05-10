@@ -1,0 +1,4 @@
+.preloader__done {
+    visibility: hidden;
+    opacity: 0;
+}

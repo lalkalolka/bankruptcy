@@ -1,0 +1,21 @@
+.preloader__logo {
+    width: 268px;
+    animation-name: logo;
+    animation-duration: 0.5s;
+
+}
+
+@media screen and (max-width: 768px) {
+    .preloader__logo {
+        width: 168px;
+    }
+}
+
+@keyframes logo {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

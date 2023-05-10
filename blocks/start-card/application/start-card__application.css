@@ -1,0 +1,21 @@
+.start-card__application {
+    border: none;
+    background: none;
+    margin: 0;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #E9AA63;
+    border-bottom: 1px dashed;
+    border-color: #FFC37E;
+    max-width: 218px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.start-card__application:hover {
+    cursor: pointer;
+    opacity: 80%;
+}

@@ -1,0 +1,23 @@
+.popup__input-comment {
+    box-sizing: border-box;
+    width: 250px;
+    min-height: 90px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    resize: none;
+}
+
+@media screen and (max-width: 768px) {
+    .popup__input-comment {
+        margin-bottom: 25px;
+    }
+
+    .popup__input-comment::placeholder {
+        font-size: 14px;
+        line-height: 15px;
+    }
+}

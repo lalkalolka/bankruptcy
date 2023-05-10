@@ -1,0 +1,15 @@
+.profi {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1249px) {
+    .profi {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .profi {
+        display: block;
+    }
+}

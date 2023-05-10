@@ -55,6 +55,9 @@ const TOKEN = '6295689013:AAH5h3VkKwxmeYIZzN_KuX2gb6TPwm1lX60';
 const CHAT_ID = '-1001953490570';
 const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
 
+//Переменные для прелоадера
+const preloader = document.querySelector('.preloader');
+
 //Работа меню-бургера
 burgerMenu.addEventListener('click', burgerMenuToggle);
 
@@ -177,7 +180,6 @@ popup.addEventListener('click', (evt) => {
 
 
 //Отправка данных в телеграм
-
 forms.forEach(form => {
     form.addEventListener('submit', sendForm)
 })
@@ -202,4 +204,14 @@ function sendForm(evt) {
         closePopup();
         alert('Данные успешно отправлены')
     })
+}
+
+
+//Работа прелоадера
+document.body.onload = function() {
+    setTimeout(function() {
+        if(!preloader.classList.contains('preloader__done')) {
+            preloader.classList.add('preloader__done')
+        }
+    }, 3500)
 }

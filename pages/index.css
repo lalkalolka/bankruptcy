@@ -1,6 +1,13 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/boody/body.css);
+@import url(../blocks/preloader/preloader.css);
+@import url(../blocks/preloader/done/preloader__done.css);
+@import url(../blocks/preloader/container/preloader__container.css);
+@import url(../blocks/preloader/logo/preloader__logo.css);
+@import url(../blocks/preloader/title/preloader__title.css);
+@import url(../blocks/preloader/subtitle-1/preloader__subtitle-1.css);
+@import url(../blocks/preloader/subtitle-2/preloader__subtitle-2.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/container/header__container.css);
 @import url(../blocks/header/container-logo-title/header__container-logo-title.css);
@@ -56,6 +63,7 @@
 @import url(../blocks/profi/reviews/profi__reviews.css);
 @import url(../blocks/profi/reviews-text/profi__reviews-text.css);
 @import url(../blocks/profi/reviews-button/profi__reviews-button.css);
+@import url(../blocks/profi/link/profi__link.css);
 @import url(../blocks/messengers/messengers.css);
 @import url(../blocks/messengers/link/messengers__link.css);
 @import url(../blocks/messengers/img/messengers__img.css);
@@ -161,6 +169,7 @@
 @import url(../blocks/footer-mobile/form/footer-mobile__form.css);
 @import url(../blocks/footer-mobile/label-name/footer-mobile__label-name.css);
 @import url(../blocks/footer-mobile/input-name/footer-mobile__input-name.css);
+@import url(../blocks/footer-mobile/input-comment/footer-mobile__input-comment.css);
 @import url(../blocks/footer-mobile/label-phone/footer-mobile__label-phone.css);
 @import url(../blocks/footer-mobile/input-phone/footer-mobile__input-phone.css);
 @import url(../blocks/footer-mobile/button/footer-mobile__button.css);

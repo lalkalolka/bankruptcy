@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Банкротство от арбитражного управляющего</title>
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="body">
@@ -25,10 +22,10 @@
                 <div class="header__right-side">
                     <div class="messengers">
                         <div class="messengers__link-container">
-                            <a href="#" class="messengers__link">
+                            <a href="https://api.whatsapp.com/send/?phone=79110329883" class="messengers__link">
                                 <img src="images/whatsapp-whats-app.svg" alt="whatsapp" class="messengers__img">
                             </a>
-                            <a href="" class="messengers__link">
+                            <a href="https://telegram.me/fin_renovation" class="messengers__link">
                                 <img src="images/logo-telegram.svg" alt="telegram" class="messengers__img">
                             </a>
                         </div>
@@ -38,7 +35,7 @@
                         <img src="images/point.svg" alt="point" class="adress__img">
                         <div class="adress__container">
                             <p class="adress__text"><span class="adress__text-bold">г. Санкт-Петербург</span>, ул. Захарьевская, д. 30, офис 302</p>
-                            <a href="#" class="adress__link">Показать на карте</a>
+                            <a href="https://yandex.ru/maps/-/CCUSVHhjDC" class="adress__link">Показать на карте</a>
                         </div>
                     </div>
                     <div class="contact">
@@ -49,29 +46,45 @@
                         </div>
                     </div>
                 </div>
-                <nav class="menu">
-                    <span class="menu__line menu__line-1"></span>
-                    <span class="menu__line menu__line-2"></span>
-                    <span class="menu__line menu__line-3"></span>
+                <nav class="menu"> <!--Все меню находится в папке Menu-->
+                    <div id="burger-menu" class="burger-container">
+                        <span class="burger__element"></span>
+                      </div>
+                      
+                      <div id="menu" class="burger__list">
+                          <ul>
+                            <li class="burger__item"><a href="#" id="burgerMain" class="burgerButton">Главная</a></li>
+                            <li class="burger__item"><a href="#" id="burgerPrice" class="burgerButton">Услуги и цены</a></li>
+                            <li class="burger__item"><a href="#" id="burgerCredit" class="burgerButton">Скидки и рассрочка</a></li>
+                            <li class="burger__item"><a href="#" id="burgerAbout" class="burgerButton">О нас</a></li>
+                            <li class="burger__item"><a href="#" id="burgerComments" class="burgerButton">Отзывы</a></li>
+                            <!-- <li><a href="#">Блог</a></li> -->
+                            <li class="burger__item"><a href="#" id="burgerContacts" class="burgerButton">Контакты</a></li>
+                          </ul>
+                      </div>
                 </nav>
             </div>
         </header>
         <main>
-            <section class="navigation">
+            <!-- <section class="navigation">
                 <div class="navigation__container">
-                    <a href="#" class="navigation__element">Услуги</a>
-                    <a href="#" class="navigation__element">Стоимость</a>
-                    <a href="#" class="navigation__element">Портфолио</a>
-                    <a href="#" class="navigation__element">Блог</a>
+                    <a href="#" class="navigation__element">Услуги и цены</a>
+                    <a href="#" class="navigation__element">Скидки и рассрочка</a>
+                    <a href="#" class="navigation__element">О нас</a>
+                    <a href="#" class="navigation__element">Отзывы</a>
                     <a href="#" class="navigation__element">Контакты</a>
                 </div>
-            </section>
+            </section> -->
             <section class="first-screen">
                 <div class="first-screen__container">
                     <div class="contacts">
                         <div class="contacts__messengers">
-                            <img src="images/whatsapp-whats-app.svg" alt="whatsapp" class="contacts__whatsapp">
-                            <img src="images/logo-telegram.svg" alt="telegram" class="contacts__telegram">
+                            <a href="https://api.whatsapp.com/send/?phone=79110329883" class="messenger-link">
+                                <img src="images/whatsapp-whats-app.svg" alt="whatsapp" class="contacts__whatsapp">
+                            </a>
+                            <a href="https://telegram.me/fin_renovation" class="messenger-link">
+                                <img src="images/logo-telegram.svg" alt="telegram" class="contacts__telegram">
+                            </a>
                         </div>
                         <a class="contacts__phone" href="tel:+79111200660">8(911)120-06-60</a>
                     </div>
@@ -79,9 +92,9 @@
                         <h2 class="heading__title">Банкротство физических лиц от арбитражного управляющего</h2>
                         <h2 class="heading__subtitle">Законно спишем долги или вернем деньги</h2>
                     </div>
-                    <img src="images/Main_image_sergey_and_alexandr.png" alt="main-image" class="main-image">
+                    <img src="images/Main_image_sergey_and_alexandr_3.png" alt="main-image" class="main-image">
                     <div class="consultation">
-                        <p class="consultation__text">Получите 30 минут консультации арбитражного управляющего <span class="consultation__text-line-through">за 5 000 рублей</span> БЕСПЛАТНО</p>
+                        <p class="consultation__text">Получите 30 минут консультации арбитражного управляющего <span class="consultation__text-line-through">за 5 000 рублей</span> <span class="get-consultation__bold">БЕСПЛАТНО</span></p>
                         <button class="consultation__button">Получить бесплатную консультацию</button>
                     </div>
                 </div>
@@ -103,12 +116,12 @@
                         </div>
                     </div>
                     <div class="get-consultation">
-                        <button class="get-consultation__button">
+                        <div class="get-consultation__button open-popup">
                             <div class="get-consultation__container">
                                 <p class="get-consultation__text">Получить бесплатную консультацию</p>
                                 <img src="images/Arrow.svg" alt="" class="get-consultation__img">
                             </div>
-                        </button>
+                        </div>
                         <p class="get-consultation__description">Получите 30 минут консультации арбитражного управляющего за <span class="get-consultation__line-through">5 000 рублей</span> <span class="get-consultation__bold text__bold">БЕСПЛАТНО</span></p>
                     </div>
                 </div>
@@ -130,7 +143,9 @@
                     </div>
                     <div class="profi__reviews">
                         <p class="profi__reviews-text">Отзывы клиентов</p>
-                        <button class="profi__reviews-button">СМОТРЕТЬ</button>
+                        <div class="profi__reviews-button">
+                            <a href="https://spb.profi.ru/profile/AlekseevAA58" class="profi__link">СМОТРЕТЬ</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -141,13 +156,13 @@
                         <h3 class="cards__title">Услуги арбитражного управляющего</h3>
                         <p class="cards__description">Для тех, кто самостоятельно собрал документы и написал заявление, но пока не нашел арбитражного управляющего для утверждения судом на процедуру</p>
                         <p class="cards__price">Cтоимость: до 60 000 рублей</p>
-                        <button class="cards__button">Оставить заявку</button>
+                        <button class="cards__button open-popup" type="button">Оставить заявку</button>
                     </div>
                     <div class="cards__second-card">
                         <h3 class="cards__title">Банкротство под ключ</h3>
                         <p class="cards__description">Полное юридическое сопровождение, включая услуги финансового управляющего, с момента подписания договора и до момента списания долгов</p>
                         <p class="cards__price">Cтоимость: до 110 000 рублей</p>
-                        <button class="cards__button">Оставить заявку</button>
+                        <button class="cards__button open-popup" type="button">Оставить заявку</button>
                     </div>
                 </div>
             </section>
@@ -159,15 +174,15 @@
                             <h2 class="start-card__number">01</h2>
                         </div>
                         <h3 class="start-card__heding">Заявка</h3>
-                        <a href="#" class="start-card__application">оставьте заявку на сайте</a>
+                        <button class="start-card__application open-popup">оставьте заявку на сайте</button>
                         <p class="start-card__call">Позвоните по номеру</p>
                         <a href="tel:+79111200660" class="start-card__phone">8(911)120-06-60</a>
                         <p class="start-card__messengers-text">Напишите в мессенджер</p>
                         <div class="start-card__messengers">
-                            <a class="start-card__messengers-link" href="#">
+                            <a class="start-card__messengers-link" href="https://api.whatsapp.com/send/?phone=79110329883">
                                 <img src="images/whatsapp-whats-app.svg" alt="wp">
                             </a>
-                            <a class="start-card__messengers-link" href="#">
+                            <a class="start-card__messengers-link" href="https://telegram.me/fin_renovation">
                                 <img src="images/logo-telegram.svg" alt="tg">
                             </a>
                         </div>
@@ -180,7 +195,7 @@
                         <p class="start-card__choose">Выберете удобный способ <span class="start-card__choose_bold">бесплатной</span> консультации</p>
                         <ul class="start-card__choose-list">
                             <li class="start-card__choose-element">по телефону (для клиентов, которые экономят время и расходы на транспорт)</li>
-                            <li class="start-card__choose-element">в нашем офисе (для клиентов, которым важен личный контакт с исполнителем)</li>
+                            <li class="start-card__choose-element">в нашем офисе (для клиентов, которым важен личный контакт с юристом)</li>
                         </ul>
                     </div>
                     <div class="start-card">
@@ -216,6 +231,10 @@
             </section>
             <section class="start-mobile">
                 <h2 class="start-mobile__heading">Как начать списание долгов уже сегодня?</h2>
+                <div class="scroll">
+                    <img src="images/Hand-scroll.svg" alt="scroll" class="scroll__img">
+                    <p class="scroll__text">Для просмотра листайте вправо</p>
+                </div>
                 <div class="swiper start-mobile__swiper">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
@@ -227,15 +246,15 @@
                                     <h2 class="start-card__number">01</h2>
                                 </div>
                                 <h3 class="start-card__heding">Заявка</h3>
-                                <a href="#" class="start-card__application">оставьте заявку на сайте</a>
+                                <a href="#" class="start-card__application" id="buttonStartCard">оставьте заявку на сайте</a>
                                 <p class="start-card__call">Позвоните по номеру</p>
                                 <a href="tel:+79111200660" class="start-card__phone">8(911)120-06-60</a>
                                 <p class="start-card__messengers-text">Напишите в мессенджер</p>
                                 <div class="start-card__messengers">
-                                    <a class="start-card__messengers-link" href="#">
+                                    <a class="start-card__messengers-link" href="https://api.whatsapp.com/send/?phone=79110329883">
                                         <img src="images/whatsapp-whats-app.svg" alt="wp">
                                     </a>
-                                    <a class="start-card__messengers-link" href="#">
+                                    <a class="start-card__messengers-link" href="https://telegram.me/fin_renovation">
                                         <img src="images/logo-telegram.svg" alt="tg">
                                     </a>
                                 </div>
@@ -313,17 +332,17 @@
                         <div class="credit__title-container">
                             <h3 class="credit__title">Рассрочка</h3>
                         </div>
-                        <p class="credit__text">При выборе услуги “Банкротство под ключ” оплата возможна частями</p>
+                        <p class="credit__text">При выборе услуги “Банкротство под ключ” оплата возможна в рассрочку</p>
                         <p class="credit__10month">до 10 месяцев</p>
                     </div>
                 </div>
-                <div class="benefits-form">
-                    <form action="#" class="benefits-form__form">
+                <div class="benefits-form form">
+                    <form action='#' class="benefits-form__form form">
                         <h2 class="benefits-form__title">Банкротство под ключ в рассрочку</h2>
-                        <input class="benefits-form__input-name" type="text" placeholder="Ваше имя">
-                        <input class="benefits-form__input-phone" type="tel" placeholder="Ваш номер телефона">
-                        <textarea class="benefits-form__input-comment" placeholder="Комментарий (например, можете указать удобное время для звонка)"></textarea>
-                        <button class="benefits-form__button" type="submit">Заказать</button>
+                        <input type="text" name="name" class="benefits-form__input-name" placeholder="Ваше имя" required>
+                        <input type="text" name="phone" class="benefits-form__input-phone" placeholder="Ваш номер телефона" required>
+                        <textarea name="comment" class="benefits-form__input-comment" placeholder="Комментарий (например, можете указать удобное время для звонка)"></textarea>
+                        <button type="submit" class="benefits-form__button">Заказать</button>
                     </form>
                 </div>
             </section>
@@ -331,7 +350,7 @@
                 <h2 class="about__title">О нас</h2>
                 <div class="about__container">
                     <div class="about__info">
-                        <img src="images/Alekseev.png" alt="Alexandr" class="about__img">
+                        <img src="images/alekseev.png" alt="Alexandr" class="about__img">
                         <div class="about__discription">
                             <h3 class="about__name">Александр Алексеев</h3>
                             <p class="about__status">юрист</p>
@@ -342,39 +361,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="swiper swiper_about">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide">
-                            <div class="swiper__wrapper-img">
-                                <img src="images/comment 1.png" alt="comments" class="swiper__img">
-                            </div>
-                            
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="swiper__wrapper-img">
-                                <img src="images/comment 2.png" alt="comments" class="swiper__img">
-                            </div>
-                            
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="swiper__wrapper-img">
-                                <img src="images/comment 3.png" alt="comments" class="swiper__img">
-                            </div>
-                            
-                          </div>
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                      
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                      
-                        <!-- If we need scrollbar -->
-                        <div class="swiper-scrollbar"></div>
-                    </div>
                 </div>
                 <div class="about__container">
                     <img src="images/kofenko.png" alt="Sergey" class="about__img">
@@ -382,52 +368,20 @@
                         <h3 class="about__name">Сергей Кофенко</h3>
                         <p class="about__status">арбитражный управляющий</p>
                         <ul class="about__list">
-                            <li class="about__item">184 отзыва на profi.ru</li>
-                            <li class="about__item">18 лет опыта в области юриспруденции</li>
-                            <li class="about__item">более 800 дел в арбитражных судах и судах общей юрисдикции</li>
+                            <li class="about__item">более 6 лет опыта в области банкротства</li>
+                            <li class="about__item">более 100 миллионов рублей списанных долгов</li>
+                            <li class="about__item">опыт работы с активами стоимостью более 20 миллионов рублей</li>
+                            <li class="about__item">представление интересов ТРК “Питерлэнд” и других крупных должников в процедурах банкротства юридических лиц</li>
                         </ul>
-                    </div>
-                    <div class="swiper swiper_about">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide">
-                            <div class="swiper__wrapper-img">
-                                <img src="images/comment 1.png" alt="comments" class="swiper__img">
-                            </div>
-                            
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="swiper__wrapper-img">
-                                <img src="images/comment 2.png" alt="comments" class="swiper__img">
-                            </div>
-                            
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="swiper__wrapper-img">
-                                <img src="images/comment 3.png" alt="comments" class="swiper__img">
-                            </div>
-                            
-                          </div>
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-                      
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                      
-                        <!-- If we need scrollbar -->
-                        <div class="swiper-scrollbar"></div>
                     </div>
                 </div>
             </section>
             <section class="about-mobile">
                 <h2 class="about-mobile__heading">О нас</h2>
                 <div class="about-mobile__person">
+                    <img src="images/alekseev.png" alt="Alexandr" class="about-mobile__img">
                     <h3 class="about-mobile__name">АЛЕКСАНДР АЛЕКСЕЕВ</h3>
                     <p class="about-mobile__description">ЮРИСТ</p>
-                    <img src="images/Alekseev.png" alt="Alexandr" class="about-mobile__img">
                     <ul class="about-mobile__list">
                         <li class="about-mobile__item">190 отзывов на profi.ru</li>
                         <li class="about-mobile__item">18 лет опыта в области юриспруденции</li>
@@ -435,55 +389,152 @@
                     </ul>
                 </div>
                 <div class="about-mobile__person">
+                    <img src="images/kofenko.png" alt="Sergey" class="about-mobile__img">
                     <h3 class="about-mobile__name">СЕРГЕЙ КОФЕНКО</h3>
                     <p class="about-mobile__description_sergey">АРБИТРАЖНЫЙ УПРАВЛЯЮЩИЙ</p>
-                    <img src="images/kofenko.png" alt="Sergey" class="about-mobile__img">
                     <ul class="about-mobile__list">
-                        <li class="about-mobile__item">190 отзывов на profi.ru</li>
-                        <li class="about-mobile__item">18 лет опыта в области юриспруденции</li>
-                        <li class="about-mobile__item">более 800 дел в арбитражных судах и судах общей юрисдикции</li>
+                        <li class="about-mobile__item">более 6 лет опыта в области банкротства</li>
+                        <li class="about-mobile__item">более 100 миллионов рублей списанных долгов</li>
+                        <li class="about-mobile__item">опыт работы с активами стоимостью более 20 миллионов рублей</li>
+                        <li class="about-mobile__item">представление интересов ТРК “Питерлэнд” и других крупных должников в процедурах банкротства юридических лиц</li>
                     </ul>
+                </div>
+            </section>
+            <section class="comments-mobile">
+                <h2 class="comments-mobile__heading">Отзывы</h2>
+                <div class="scroll">
+                    <img src="images/Hand-scroll.svg" alt="scroll" class="scroll__img">
+                    <p class="scroll__text">Для просмотра листайте вправо</p>
+                </div>
+                <div class="swiper swiper__comments">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="swiper__wrapper-img">
+                            <img src="images/comment_1.png" alt="comments" class="swiper__img">
+                        </div>
+                        
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper__wrapper-img">
+                            <img src="images/comment_2.png" alt="comments" class="swiper__img">
+                        </div>
+                        
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper__wrapper-img">
+                            <img src="images/comment_3.png" alt="comments" class="swiper__img">
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </section>
+            <section class="profi">
+                <div class="profi__container">
+                    <div class="profi__logo-and-rating">
+                        <img src="images/profi_logo.svg" alt="" class="profi__logo">
+                        <div class="profi__rating-container">
+                            <div class="profi__comments">
+                                <img src="images/comment-image.svg" alt="comments" class="profi__comments-img">
+                                <p class="profi__comments-text">190 отзывов</p>
+                            </div>
+                            <div class="profi__rating">
+                                <img src="images/star.svg" alt="star" class="profi__rating-img">
+                                <p class="profi__rating-text">4,91</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profi__reviews">
+                        <p class="profi__reviews-text">Отзывы клиентов</p>
+                        <div class="profi__reviews-button">
+                            <a href="https://spb.profi.ru/profile/AlekseevAA58" class="profi__link">СМОТРЕТЬ</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
         <footer>
             <div class="footer-mobile">
                 <h2 class="footer-mobile__title">Банкротство проще, чем кажется</h2>
-                <p class="footer-mobile__subtitle">Получите бесплатную консультацию, чтобы принять взвешенное решение</p>
+                <p class="footer-mobile__subtitle">Получите бесплатную консультацию, чтобы принять решение</p>
                 <a class="footer-mobile__phone" href="tel:+79111200660">8(911)120-06-60</a>
                 <div class="footer-mobile__messengers">
-                    <img src="images/whatsapp-whats-app.svg" alt="whatsapp" class="footer-mobile__whatsapp">
-                    <img src="images/logo-telegram.svg" alt="telegram" class="footer-mobile__telegram">
+                    <a href="https://api.whatsapp.com/send/?phone=79110329883" class="messenger-link">
+                        <img src="images/whatsapp-whats-app.svg" alt="whatsapp" class="footer-mobile__whatsapp">
+                    </a>
+                    <a href="https://telegram.me/fin_renovation" class="messenger-link">
+                        <img src="images/logo-telegram.svg" alt="telegram" class="footer-mobile__telegram">
+                    </a>
                 </div>
                 <p class="footer-mobile__text">Россия, Санкт-Петербург, ул. Захарьевская, д. 29, офис 302</p>
                 <p class="footer-mobile__text">пн-вс, с 10 до 19 часов</p>
-                <form action="" class="footer-mobile__form">
+                <a class="footer-mobile__phone" href="https://yandex.ru/maps/-/CCUSVHhjDC">Показать на карте</a>
+                <form action='#' class="footer-mobile__form form">
                     <label for="footer-mobile__input-name" class="footer-mobile__label-name">Ваше имя</label>
-                    <input type="text" class="footer-mobile__input-name" name="footer-mobile__input-name">
+                    <input type="text" name="name" class="footer-mobile__input-name" required>
                     <label for="footer-mobile__input-phone" class="footer-mobile__label-phone">Телефон</label>
-                    <input type="text" class="footer-mobile__input-phone" name="footer-mobile__input-phone">
-                    <button class="footer-mobile__button" type="submit">Получить бесплатную консультацию</button>
+                    <input type="tel" name="phone" class="footer-mobile__input-phone" required>
+                    <label for="footer-mobile__input-phone" class="footer-mobile__label-phone">Комментарий</label>
+                    <textarea name="comment" class="footer-mobile__input-comment" placeholder="например, можете указать удобное время для звонка"></textarea>
+                    <button type="submit" class="footer-mobile__button">Получить бесплатную консультацию</button>
                 </form>
             </div>
+            <div class="footer-desktop">
+                <div class="footer-desktop__container">
+                    <div class="footer-desktop__contacts">
+                        <h3 class="footer-desktop__title">Не знаете, с чего начать?</h3>
+                        <p class="footer-desktop__subtitle">поговорите с юристом</p>
+                        <div class="footer-desktop__messengers">
+                            <div class="footer-desktop__messengers-left">
+                                <a href="tel:+79111200660" class="footer-desktop__call">Звоните</a>
+                                <a href="tel:+79111200660" class="footer-desktop__number">8(911)120-06-60</a>
+                            </div>
+                            <div class="footer-desktop__messengers-right">
+                                <p class="footer-desktop__write">Пишите</p>
+                                <div class="footer-desktop__wp-tg">
+                                    <a href="https://api.whatsapp.com/send/?phone=79110329883" class="messenger-link">
+                                        <img src="images/whatsapp-whats-app.svg" alt="whatsapp" class="contacts__whatsapp">
+                                    </a>
+                                    <a href="https://telegram.me/fin_renovation" class="messenger-link">
+                                        <img src="images/logo-telegram.svg" alt="telegram" class="contacts__telegram">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://yandex.ru/maps/-/CCUSVHhjDC" class="footer-desktop__adress">Санкт-Петербург, ул. Захарьевская, дом 29, офис 302</a>
+                    </div>
+                    <div class="footer-form">
+                        <form action='#' class="footer-form__form form">
+                            <h2 class="footer-form__title">Закажите обратный звонок</h2>
+                            <input type="text" name="name" class="footer-form__input-name" placeholder="Ваше имя" required>
+                            <input type="tel" name="phone" class="footer-form__input-phone" placeholder="Ваш номер телефона" required>
+                            <textarea name="comment" class="footer-form__input-comment" placeholder="Комментарий (например, можете указать удобное время для звонка)"></textarea>
+                            <button type="submit" class="footer-form__button">Заказать звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </footer>
+        <div class="popup">
+            <form action='#' class="popup__container form">
+                <h2 class="popup__title">Оставить заявку на бесплатную консультацию</h2>
+                <input type="text" name="name" class="popup__input-name" placeholder="Ваше имя" required>
+                <input type="tel" name="phone" class="popup__input-phone" placeholder="Ваш номер телефона" required>
+                <textarea name="comment" class="popup__input-comment" placeholder="Комментарий (например, можете указать удобное время для звонка)"></textarea>
+                <button type="submit" class="popup__button">Позвоните мне</button>
+                <button type="button" class="popup__close-button"></button>
+            </form>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            pagination: {
-                el: '.swiper-pagination',
-            },
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
